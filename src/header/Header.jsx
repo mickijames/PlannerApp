@@ -1,6 +1,6 @@
-import React from 'react';
+import React, {Component} from 'react';
 
-class Header extends React.Component {
+class Header extends Component {
     render() {
         return (
             <div className="header">
@@ -11,7 +11,7 @@ class Header extends React.Component {
     }
 }
 
-class DateTime extends React.Component {
+class DateTime extends Component {
     constructor(props) {
         super(props);
         this.state = {
