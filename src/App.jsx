@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
-import Header from './Header';
-import Main from './Main';
-import Footer from './Footer';
+import Header from './header/Header';
+import Main from './main/Main';
+import Footer from './footer/Footer';
+import MediaQuery from './MediaQuery';
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
         <Header />
         <Main />
         <Footer />
+        <MediaQuery />
       </div>
     );
   }

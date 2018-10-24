@@ -3,7 +3,7 @@ import React from 'react';
 class Header extends React.Component {
     render() {
         return (
-            <div id="header">
+            <div className="header">
                 <h1>Good Morning!</h1>
                 <h4>It is currently <DateTime />.</h4>
             </div>
