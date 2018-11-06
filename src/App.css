@@ -4,6 +4,6 @@
 
 body {
     color: white;
-    background: linear-gradient(rgb(37, 178, 243), rgba(37, 178, 243, .5));
+    background: #000;
     padding: 2rem;
 }
